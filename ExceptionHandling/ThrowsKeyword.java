@@ -3,7 +3,7 @@ package ExceptionHandling;
 public class ThrowsKeyword {
     public  static int Change(int [] brr) throws ArrayIndexOutOfBoundsException{
         return brr[8]=100;
-    }
+    }                      // throws keyword give warning that this function can give Exception
     public static void main(String[] args){
         int [] arr = new int[5];
 
